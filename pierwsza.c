@@ -7,8 +7,8 @@ int main()
     {
         printf("Podaj liczbe z <0,100>\n");
         //fflush(stdin);//czyszczenie bufora
-        scanf("%d",&liczba);
-    }while(liczba<0 || liczba>100);
+        scanf("%d",&liczb);
+    }while(lizba<0 || lczba>100);
     for (i=2;i<=sqrt(liczba);i++)//optymalizacja
     //for (i=2;i<liczba);i++) mo¿na tak
     {
